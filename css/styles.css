@@ -1,44 +1,35 @@
 * {
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-#app {
-    background: #000;
-    height: 700vh;
-}
-.navbar-header a {
-    color: #67c8e0;
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.3em;
 }
 
-.jumbotron {
-    background-color: #504f5c;
-  
+.hero {
+  background-color: #000;
 }
 
-.jumbotron .btn {
-   width: 200px;
+.container-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 180px;
+  color: #fff;
 }
 
-.error {
-    background-color: #ee6e73; 
-    height: 40px;
-    margin-top: 10px;
-    width:40%;
-    color: #000;
-    font-size: 1.5em;
+#movies {
+  display: flex;
+  justify-content: center;
+}
+#movies .card {
+  margin: 10px;
+  margin-top: 30px;
+  border: none;
 }
 
-#movie {
-    display: inline;
-    justify-content: center;
-}
-
-#movie .col-lg-4 {
-   width: 450px;
-
-}
-
+/*# sourceMappingURL=styles.css.map */

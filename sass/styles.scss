@@ -1,0 +1,33 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.3em;
+}
+
+.hero {
+	background-color: #000;
+}
+.container-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 180px;
+	color: #fff;
+}
+
+#movies {
+	display: flex;
+	justify-content: center;
+	.card {
+		margin: 10px;
+		margin-top: 30px;
+		border: none;
+	}
+}
